@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>亲属关系计算器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <header>
+            <h1>亲属关系计算器</h1>
+            <p>轻松搞定三姑六婆</p>
+        </header>
+        <div class="display-section">
+            <div id="relation-chain" class="chain">我的</div>
+            <div id="result" class="result">我</div>
+        </div>
+        <div class="button-grid">
+            <button class="btn" data-key="f">父</button>
+            <button class="btn" data-key="m">母</button>
+            <button class="btn" data-key="h">夫</button>
+            <button class="btn" data-key="w">妻</button>
+            <button class="btn" data-key="ob">兄</button>
+            <button class="btn" data-key="yb">弟</button>
+            <button class="btn" data-key="os">姐</button>
+            <button class="btn" data-key="ys">妹</button>
+            <button class="btn" data-key="s">子</button>
+            <button class="btn" data-key="d">女</button>
+        </div>
+        <div class="control-buttons">
+            <button id="clear" class="btn-control">清除</button>
+            <button id="backspace" class="btn-control">退格</button>
+        </div>
+        <footer>
+            <p>由 Gemini 创建</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
